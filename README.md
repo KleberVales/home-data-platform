@@ -1,4 +1,4 @@
-# home-data-platform
+# Home data platform
 
 ```text
                     ┌─────────────────────┐
