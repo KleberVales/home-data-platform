@@ -1,7 +1,9 @@
 home-data-platform/  
 ├── service-family/  
 ├── service-auth/  
-├── service-temperature/
+├── service-temperature/  
+└── README.md
+
 
 
 
