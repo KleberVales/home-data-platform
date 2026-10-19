@@ -53,6 +53,84 @@ classDiagram
         -LocalDateTime createdAt
         -LocalDateTime updatedAt
     }
+    class Relationship {
+        <<enumeration>>
+        PARENT
+        CHILD
+        SIBLING
+        SPOUSE
+        GRANDPARENT
+        GRANDCHILD
+        OTHER
+    }
+
+    class CreateFamilyMemberRequest {
+        <<DTO>>
+        +String firstName
+        +String lastName
+        +LocalDate birthDate
+        +Relationship relationship
+        +String email
+        +String phone
+    }
+
+    class UpdateFamilyMemberRequest {
+        <<DTO>>
+        +String firstName
+        +String lastName
+        +LocalDate birthDate
+        +Relationship relationship
+        +String email
+        +String phone
+    }
+
+    class FamilyMemberResponse {
+        <<DTO>>
+        +UUID id
+        +String firstName
+        +String lastName
+        +LocalDate birthDate
+        +Relationship relationship
+        +String email
+        +String phone
+        +LocalDateTime createdAt
+        +LocalDateTime updatedAt
+    }
+
+    class FamilyMemberNotFoundException {
+        <<exception>>
+        +FamilyMemberNotFoundException(UUID id)
+    }
+
+    class GlobalExceptionHandler {
+        +handleNotFound(FamilyMemberNotFoundException) ErrorResponse
+        +handleValidation(Exception) ErrorResponse
+    }
+
+    class ErrorResponse {
+        <<DTO>>
+        +int status
+        +String message
+        +LocalDateTime timestamp
+    }
+
+    FamilyMemberController --> FamilyMemberService : uses
+    FamilyMemberServiceImpl ..|> FamilyMemberService : implements
+    FamilyMemberServiceImpl --> FamilyMemberRepository : uses
+    FamilyMemberServiceImpl --> FamilyMemberMapper : uses
+    FamilyMemberServiceImpl ..> FamilyMemberNotFoundException : throws
+    FamilyMemberRepository --> FamilyMember : persists
+    FamilyMember --> Relationship
+    FamilyMemberMapper ..> CreateFamilyMemberRequest
+    FamilyMemberMapper ..> UpdateFamilyMemberRequest
+    FamilyMemberMapper ..> FamilyMemberResponse
+    FamilyMemberMapper ..> FamilyMember
+    FamilyMemberController ..> CreateFamilyMemberRequest
+    FamilyMemberController ..> UpdateFamilyMemberRequest
+    FamilyMemberController ..> FamilyMemberResponse
+    GlobalExceptionHandler ..> FamilyMemberNotFoundException : handles
+    GlobalExceptionHandler ..> ErrorResponse : returns
+```
 
 
 
