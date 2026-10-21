@@ -8,7 +8,7 @@ plugins{
 
 group= 'com.kvales'
 version= '0.0.1-SNAPSHOT'
-description= 'family-service'
+description= 'service-family'
 
 java{
     toolchain {

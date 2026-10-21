@@ -22,6 +22,11 @@ public class FamilyRepositoryAdapter implements FamilyRepository {
 
     }
 
+    @Override
+    public boolean existsByEmail(String email) {
+        return jpaFamilyRepository.existsByEmail(email);
+    }
+
 
     private FamilyEntity toEntity(Family family) {
 
