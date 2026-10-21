@@ -5,4 +5,6 @@ import com.kvales.family.domain.model.Family;
 public interface FamilyRepository {
 
     Family save(Family family);
+
+    boolean existsByEmail(String email);
 }

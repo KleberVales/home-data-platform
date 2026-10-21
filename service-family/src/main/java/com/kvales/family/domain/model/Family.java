@@ -16,7 +16,6 @@ public class Family {
     private Relationship relationship;
     private LocalDate birthDate;
     private LocalDateTime createAt;
-    private LocalDateTime updateAt;
 
 
     public Family(String name, String email, String phone, Relationship relationship, LocalDate birthDate) {
