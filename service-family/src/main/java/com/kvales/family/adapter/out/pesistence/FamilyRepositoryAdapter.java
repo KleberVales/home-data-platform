@@ -2,14 +2,14 @@ package com.kvales.family.adapter.out.pesistence;
 
 import com.kvales.family.domain.model.Family;
 import com.kvales.family.domain.repository.FamilyRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
+@Component
+@RequiredArgsConstructor
 public class FamilyRepositoryAdapter implements FamilyRepository {
 
     private final JpaFamilyRepository jpaFamilyRepository;
-
-    public FamilyRepositoryAdapter(JpaFamilyRepository jpaFamilyRepository){
-        this.jpaFamilyRepository = jpaFamilyRepository;
-    }
 
     @Override
     public Family save(Family family){
