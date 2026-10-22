@@ -33,4 +33,3 @@
 - Energy — energy consumption.
 - Presence — presence/movement.
 - Air Quality — CO₂, particles, air quality.
-- Weather — external data for comparison with internal data.
