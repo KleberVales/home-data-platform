@@ -8,6 +8,8 @@ import com.kvales.family.domain.repository.FamilyRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class CreateFamilyUseCase {
@@ -34,6 +36,18 @@ public class CreateFamilyUseCase {
         Family savedCustomer = familyRepository.save(family);
 
         return FamilyResponse.from(savedCustomer);
+    }
+
+    public List<FamilyResponse> getAll(){
+
+        return familyRepository.findAll().stream().map(family -> new FamilyResponse(
+                family.getName(),
+                family.getEmail(),
+                family.getPhone(),
+                family.getBirthDate()
+        )
+        )
+                .toList();
     }
 
 }

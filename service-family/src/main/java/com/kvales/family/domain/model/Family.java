@@ -3,7 +3,6 @@ package com.kvales.family.domain.model;
 import lombok.Getter;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Getter
 public class Family {
@@ -15,7 +14,6 @@ public class Family {
     private String phone;
     private Relationship relationship;
     private LocalDate birthDate;
-    private LocalDateTime createAt;
 
 
     public Family(String name, String email, String phone, Relationship relationship, LocalDate birthDate) {

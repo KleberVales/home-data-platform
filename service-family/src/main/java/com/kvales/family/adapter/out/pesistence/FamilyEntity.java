@@ -44,8 +44,19 @@ public class FamilyEntity {
         this.name = name;
     }
 
-    public FamilyEntity(){}
+    public FamilyEntity(){
 
+    }
 
+    public Family toDomain(){
+
+        return new Family(
+                name,
+                email,
+                phone,
+                relationship,
+                birthDate
+        );
+    }
 
 }
