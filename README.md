@@ -30,4 +30,3 @@
 - Temperature — temperature by room and period.
 - Humidity — relative humidity.
 - Camera — cameras, events, and possibly image/video storage.
-- Energy — energy consumption.
