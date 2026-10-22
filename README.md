@@ -28,4 +28,3 @@
 ## Components
 
 - Temperature — temperature by room and period.
-- Humidity — relative humidity.
