@@ -6,9 +6,9 @@ frontend
      ├── App.tsx
      ├── index.css
      ├── components/
-     │   ├── FamilyForm.tsx      formulário de cadastro
-     │   └── FamilyTable.tsx     tabela de membros
+     │   ├── FamilyForm.tsx      
+     │   └── FamilyTable.tsx    
      ├── pages/
-     │   └── FamilyPage.tsx      junta tudo, carrega e salva
+     │   └── FamilyPage.tsx     
      └── services/
-          └── familyService.ts    GET e POST em /api/family
+          └── familyService.ts    
