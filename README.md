@@ -32,4 +32,3 @@
 - Camera — cameras, events, and possibly image/video storage.
 - Energy — energy consumption.
 - Presence — presence/movement.
-- Air Quality — CO₂, particles, air quality.
