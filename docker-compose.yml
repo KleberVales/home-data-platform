@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+
+  # service-family database
+  family-db:
+    image: postgres:16-alpine
+    container_name: family-db
+    environment:
+      POSTGRES_DB: ${USER_DB_NAME}
+      POSTGRES_USER: ${USER_DB_USERNAME}
+      POSTGRES_PASSWORD: ${USER_DB_PASSWORD}
+    ports:
+      - "5435:5432"
+    volumes:
+      - family_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${USER_DB_USERNAME} -d ${USER_DB_NAME}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - home-data-platform
+
+  # Family microservice
+  service-family:
+    build:
+      context: ./service-family
+      dockerfile: Dockerfile
+    container_name: service-family
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://family-db:5432/family_db
+      SPRING_DATASOURCE_USERNAME: ${USER_DB_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${USER_DB_PASSWORD}
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    depends_on:
+      family-db:
+        condition: service_healthy
+    networks:
+      - home-data-platform
+
+networks:
+  home-data-platform:
+    driver: bridge
+
+volumes:
+  family_db_data:
