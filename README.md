@@ -21,6 +21,5 @@
                                                 │
                              ┌──────────────────┼─────────────┐
                              ▼                  ▼             ▼
-                         Temperatura        Umidade        Outros
 
 
