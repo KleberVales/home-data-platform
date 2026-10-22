@@ -4,7 +4,6 @@
                     ┌─────────────────────┐
                     │     React Frontend   │
                     │ Dashboard / Charts   │
-                    └──────────┬──────────┘
                                
 
 
