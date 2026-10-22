@@ -8,7 +8,6 @@
                                │ HTTPS
                                ▼
                     ┌─────────────────────┐
-                    │    Spring Boot API   │
                                
 
 
