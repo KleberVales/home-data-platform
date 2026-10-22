@@ -36,4 +36,3 @@
 - Weather — external data for comparison with internal data.
 - Alerts — temperatures, humidity, presence, or other out-of-the-ordinary events.
 - Analytics — averages, maximums, minimums, trends, and correlations.
-- Dashboard — consolidated visualization in React.
