@@ -5,8 +5,6 @@
                     │     React Frontend   │
                     │ Dashboard / Charts   │
                     └──────────┬──────────┘
-                               │ HTTPS
-                               ▼
                                
 
 
