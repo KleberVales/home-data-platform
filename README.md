@@ -16,6 +16,5 @@
               ▼                ▼                ▼
        ┌────────────┐   ┌────────────┐   ┌────────────┐
        │ PostgreSQL │   │   AWS S3   │   │   AWS IoT  │
-       │ Dados      │   │ Imagens    │   │  Sensores  │
 
 
