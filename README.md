@@ -23,6 +23,5 @@
                              ▼                  ▼             ▼
                          Temperatura        Umidade        Outros
                            Sensor             Sensor       dispositivos
-```
 
 
