@@ -31,4 +31,3 @@
 - Humidity — relative humidity.
 - Camera — cameras, events, and possibly image/video storage.
 - Energy — energy consumption.
-- Presence — presence/movement.
