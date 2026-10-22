@@ -25,5 +25,4 @@
                            Sensor             Sensor       dispositivos
 ```
 
-## Components
 
