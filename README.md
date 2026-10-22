@@ -27,4 +27,3 @@
 
 ## Components
 
-- Temperature — temperature by room and period.
