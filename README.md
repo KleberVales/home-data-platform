@@ -1,5 +1,2 @@
-# Home data platform
-
-                               
-
-
+# 🏠 Home Data Platform
+ 
