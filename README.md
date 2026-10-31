@@ -18,12 +18,14 @@ The first service, **`service-family`**, manages family-related data and is full
 ## 🧱 Architecture
 
 ```
+
 ┌──────────────┐ REST ┌──────────────────┐ JDBC ┌──────────────────┐
 │ Frontend │ ─────────────────▶ │ service-family │ ─────────────────▶ │ family-db │
 │ (frontend/) │ │ Spring Boot │ │ PostgreSQL 16 │
 └──────────────┘ │ :8081 │ │ :5435 (host) │
 └──────────────────┘ └──────────────────┘
 └────────── Docker network: home-data-platform ──────────┘
+
 ```
  
  
