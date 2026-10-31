@@ -10,6 +10,10 @@
 ---
 
 ## 📌 About
+
+**Home Data Platform** is a personal/home-data project built with a microservices architecture. Each domain of the household (family members, and more to come) lives in its own independent service with its own database, and a frontend consumes them.
+ 
+ 
  
 
 
