@@ -15,6 +15,10 @@
 
 The first service, **`service-family`**, manages family-related data and is fully containerized, so the whole stack can be started with a single command.
 
+## 🧱 Architecture
+ 
+
+
  
  
  
