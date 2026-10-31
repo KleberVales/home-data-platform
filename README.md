@@ -17,7 +17,7 @@ The first service, **`service-family`**, manages family-related data and is full
 
 ## 🧱 Architecture
 
-```
+```text
 
 ┌──────────────┐ REST ┌──────────────────┐ JDBC ┌──────────────────┐
 │ Frontend │ ─────────────────▶ │ service-family │ ─────────────────▶ │ family-db │
