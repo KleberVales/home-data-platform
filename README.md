@@ -30,10 +30,9 @@ The first service, **`service-family`**, manages family-related data and is full
 └────────── Docker network: home-data-platform ──────────┘
 
 ```
- 
- 
 
-
+## 🛠️ Tech Stack
+ 
  
  
  
