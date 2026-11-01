@@ -36,7 +36,7 @@ The first service, **`service-family`**, manages family-related data and is full
 | Layer | Technology |
 | ---------------- | -------------------------------------------- |
 | Backend | Java, Spring Boot, Spring Data JPA / Hibernate |
- 
+| Build tool | Gradle (wrapper included) |
 
 
 
