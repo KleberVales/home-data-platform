@@ -138,6 +138,6 @@ docker compose up family-db
 - [ ] Replace `ddl-auto=update` with migrations (Flyway/Liquibase)
       
 ## 🤝 Contributing
- 
 
- 
+1. Fork the project
+
