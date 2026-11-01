@@ -76,6 +76,7 @@ USER_DB_NAME=family_db
 USER_DB_USERNAME=postgres
 USER_DB_PASSWORD=change-me
 ```
+
+> ⚠️ `USER_DB_NAME` should be `family_db`, since the service connects to `jdbc:postgresql://family-db:5432/family_db`.
+> Never commit your `.env` file.
  
-
-
