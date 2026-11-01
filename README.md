@@ -140,4 +140,5 @@ docker compose up family-db
 ## 🤝 Contributing
 
 1. Fork the project
+2. Create your branch: `git checkout -b feature/my-feature`
 
