@@ -42,5 +42,18 @@ The first service, **`service-family`**, manages family-related data and is full
 | Frontend | `frontend/` directory |
  
 ## 📂 Project Structure
+
+```
+home-data-platform/
+├── documentation/ # Project documentation
+├── frontend/ # Web client
+├── service-family/ # Family microservice (Spring Boot)
+├── gradle/wrapper/ # Gradle wrapper files
+├── docker-compose.yml # Orchestrates database + services
+├── settings.gradle # Gradle multi-project settings
+└── README.md
+```
+ 
+
  
 
