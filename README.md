@@ -79,4 +79,41 @@ USER_DB_PASSWORD=change-me
 
 > ⚠️ `USER_DB_NAME` should be `family_db`, since the service connects to `jdbc:postgresql://family-db:5432/family_db`.
 > Never commit your `.env` file.
+
+### 3. Start the platform
  
+```bash
+docker compose up --build
+```
+ 
+Docker Compose will:
+ 
+1. Start **`family-db`** (PostgreSQL) and wait for its healthcheck to pass.
+2. Build and start **`service-family`** once the database is healthy.
+### 4. Access
+ 
+| Service | URL / Address |
+| ---------------- | ------------------------ |
+| Family API | http://localhost:8081 |
+| PostgreSQL (host)| `localhost:5435` |
+ 
+### Stop the platform
+ 
+```bash
+docker compose down # stop containers
+docker compose down -v # stop and remove database volume
+```
+ 
+## ⚙️ Services
+ 
+### `service-family`
+ 
+- Spring Boot REST microservice on port **8081**
+- Persists data in PostgreSQL through Spring Data JPA
+- Schema managed automatically (`SPRING_JPA_HIBERNATE_DDL_AUTO=update`)
+- Starts only after the database passes its healthcheck
+### `family-db`
+ 
+- PostgreSQL 16 (Alpine) with a persistent named volume (`family_db_data`)
+- Exposed on host port **5435** to avoid clashing with a local Postgres
+- Healthcheck via `pg_isready`
