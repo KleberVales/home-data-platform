@@ -39,8 +39,8 @@ The first service, **`service-family`**, manages family-related data and is full
 | Build tool | Gradle (wrapper included) |
 | Database | PostgreSQL 16 (Alpine) |
 | Infrastructure | Docker & Docker Compose |
-
-
-
-
+| Frontend | `frontend/` directory |
  
+## 📂 Project Structure
+ 
+
