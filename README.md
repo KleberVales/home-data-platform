@@ -118,3 +118,16 @@ docker compose down -v # stop and remove database volume
 - Exposed on host port **5435** to avoid clashing with a local Postgres
 - Healthcheck via `pg_isready`
 
+## 🧪 Running Locally (without Docker for the service)
+ 
+```bash
+# Start only the database
+docker compose up family-db
+ 
+# Run the service with Gradle
+./gradlew :service-family:bootRun
+```
+ 
+
+ 
+
