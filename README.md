@@ -32,9 +32,10 @@ The first service, **`service-family`**, manages family-related data and is full
 ```
 
 ## 🛠️ Tech Stack
- 
- 
- 
+
+| Layer | Technology |
+| ---------------- | -------------------------------------------- |
+| Backend | Java, Spring Boot, Spring Data JPA / Hibernate |
  
 
 
