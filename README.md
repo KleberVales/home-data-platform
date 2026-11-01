@@ -117,3 +117,4 @@ docker compose down -v # stop and remove database volume
 - PostgreSQL 16 (Alpine) with a persistent named volume (`family_db_data`)
 - Exposed on host port **5435** to avoid clashing with a local Postgres
 - Healthcheck via `pg_isready`
+
