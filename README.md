@@ -129,4 +129,15 @@ docker compose up family-db
 ```
 
 ## 🗺️ Roadmap
+
+- [ ] Document the Family API endpoints (OpenAPI / Swagger)
+- [ ] Add new domain microservices
+- [ ] Containerize the frontend in `docker-compose.yml`
+- [ ] Add an API gateway
+- [ ] Add automated tests and CI with GitHub Actions
+- [ ] Replace `ddl-auto=update` with migrations (Flyway/Liquibase)
+      
+## 🤝 Contributing
+ 
+
  
