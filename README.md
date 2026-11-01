@@ -37,6 +37,8 @@ The first service, **`service-family`**, manages family-related data and is full
 | ---------------- | -------------------------------------------- |
 | Backend | Java, Spring Boot, Spring Data JPA / Hibernate |
 | Build tool | Gradle (wrapper included) |
+| Database | PostgreSQL 16 (Alpine) |
+| Infrastructure | Docker & Docker Compose |
 
 
 
