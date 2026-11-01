@@ -53,7 +53,23 @@ home-data-platform/
 ├── settings.gradle # Gradle multi-project settings
 └── README.md
 ```
+
+## 🚀 Getting Started
  
+### Prerequisites
+ 
+- [Docker](https://docs.docker.com/get-docker/) and Docker Compose
+- JDK 17+ *(only if you want to run the service outside Docker)*
+### 1. Clone the repository
+ 
+```bash
+git clone https://github.com/KleberVales/home-data-platform.git
+cd home-data-platform
+```
+ 
+### 2. Configure environment variables
+ 
+
 
  
 
