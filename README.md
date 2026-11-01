@@ -68,8 +68,14 @@ cd home-data-platform
 ```
  
 ### 2. Configure environment variables
+
+Create a `.env` file in the project root:
+ 
+```env
+USER_DB_NAME=family_db
+USER_DB_USERNAME=postgres
+USER_DB_PASSWORD=change-me
+```
  
 
-
- 
 
