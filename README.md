@@ -147,12 +147,12 @@ docker compose up family-db
 
    ---
 
-   ## Kleber Vales
+## Kleber Vales
 
-   **LinkedIn:**  
-   **Email:**
+**LinkedIn:**  
+**Email:**
 
-   ## Academic
+### Academic
 
 🎓 **Bachelor's Degree in Computer Science**  
 
