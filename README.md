@@ -149,6 +149,9 @@ docker compose up family-db
 
 ### Kleber Vales
 
+**LinkedIn:**  
+**Email:**
+
 **Java & Spring Software Engineer**
 
 | Cloud | DevOps | Generative AI | Methodologies | Architectures |
