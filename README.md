@@ -156,7 +156,7 @@ docker compose up family-db
 
 **Java & Spring Software Engineer**
 
-| Cloud | DevOps | 
+| Cloud | DevOps | Generative AI | 
 
 ### Academic
 
