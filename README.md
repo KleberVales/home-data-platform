@@ -147,10 +147,14 @@ docker compose up family-db
 
    ---
 
-## Kleber Vales
+### ✉️ Contact
 
 **LinkedIn:**  
 **Email:**
+
+## Kleber Vales
+
+**Java & Spring Software Engineer**
 
 ### Academic
 
