@@ -155,5 +155,7 @@ docker compose up family-db
 ### Academic
 
 🎓 **Bachelor's Degree in Computer Science**  
+🎓 **MBA in Web Software Development**
+
 
    
