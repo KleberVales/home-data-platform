@@ -149,5 +149,7 @@ docker compose up family-db
 
    ## Kleber Vales
 
-   **LinkedIn:**
+   **LinkedIn:**  
    **Email:**
+
+   ## Academic
