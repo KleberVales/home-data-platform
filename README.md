@@ -153,3 +153,7 @@ docker compose up family-db
    **Email:**
 
    ## Academic
+
+🎓 **Bachelor's Degree in Computer Science**  
+
+   
