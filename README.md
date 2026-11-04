@@ -161,7 +161,7 @@ docker compose up family-db
 **Bachelor's Degree in Computer Science**  
 **MBA in Web Software Development**
 
-**Certifications**  
+### Certifications
 
 🏆 **Oracle Cloud Infrastructure 2025 – DevOps Professional**  
 🏆 **Oracle Cloud Infrastructure 2025 – Generative AI Professional**  
