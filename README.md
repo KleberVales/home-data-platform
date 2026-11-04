@@ -144,4 +144,7 @@ docker compose up family-db
 3. Commit your changes: `git commit -m "feat: add my feature"`
 4. Push to the branch: `git push origin feature/my-feature`
 5. Open a Pull Request
-   
+
+   ---
+
+   ## Kleber Vales
