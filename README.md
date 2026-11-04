@@ -156,10 +156,10 @@ docker compose up family-db
 
 | Cloud | DevOps | Generative AI | Methodologies | Architectures |
 
-### Academic
+### 🎓 Education
 
-🎓 **Bachelor's Degree in Computer Science**  
-🎓 **MBA in Web Software Development**
+**Bachelor's Degree in Computer Science**  
+**MBA in Web Software Development**
 
 **Certifications**  
 
