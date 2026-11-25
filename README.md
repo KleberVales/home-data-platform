@@ -145,7 +145,7 @@ docker compose up family-db
 4. Push to the branch: `git push origin feature/my-feature`
 5. Open a Pull Request
 
-   ---
+---
 
 ### Kleber Vales
 
@@ -159,7 +159,7 @@ docker compose up family-db
 🎓 **Bachelor's Degree in Computer Science**  
 🎓 **MBA in Web Software Development**
 
-**Certifications**
+**CERTIFICATIONS**
 
 🏆 **OCI 2025 – DevOps Professional | Generative AI Professional**  
 🏆 **OCI Architect Associate**  
